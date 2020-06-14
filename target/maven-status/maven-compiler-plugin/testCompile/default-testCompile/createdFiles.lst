@@ -1,0 +1,17 @@
+com\maven\jenkins\TestNG\jenkins_demo.class
+com\maven\jenkins\TestNG\PriorityTestNG.class
+com\maven\jenkins\TestNG\LoginGroup.class
+com\maven\jenkins\TestNG\Login_dependsOnMethods.class
+com\maven\jenkins\TestNG\HomeGroup.class
+com\maven\jenkins\TestNG\attheTestRate.class
+com\maven\jenkins\TestNG\Annotations.class
+com\maven\jenkins\TestNG\LoginValidation.class
+com\maven\jenkins\TestNG\Demo_Annotations.class
+com\maven\jenkins\TestNG\HomeSuite.class
+com\maven\jenkins\TestNG\Login.class
+com\maven\jenkins\TestNG\LoginSuite.class
+com\maven\jenkins\TestNG\DataProvider_Aspose.class
+com\maven\jenkins\TestNG\BrowserUtility.class
+com\maven\jenkins\TestNG\TestNG_Assertion.class
+com\maven\jenkins\TestNG\Demo_DataProvider.class
+com\maven\jenkins\TestNG\DataProvider_Excelxls.class

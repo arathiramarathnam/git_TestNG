@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite"> <!--  create a suite  -->
+  <test name="Home_Test">
+    <classes>
+      		<class name="com.maven.jenkins.TestNG.HomeSuite"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Login_Test">
+  	  <classes>
+  	  		<class name="com.maven.jenkins.TestNG.LoginSuite">
+  	  		<methods> <!--  30 test cases in file ctrl+shift+/ to comment -->
+ <!--  	  	<include name="TC_Login_01"/>
+  	  		<include name="TC_Login_02"/>
+  	  		<include name="TC_Login_04"/> -->
+  	  		<!-- <exclude name="TC_Login_03"/> -->
+  	  		<include name="TC_Login_04"/>
+  	  		</methods>
+  	  		</class>
+  	  </classes>
+  </test> <!-- Test -->   
+</suite> <!-- Suite -->
+		
+		
+		
+		

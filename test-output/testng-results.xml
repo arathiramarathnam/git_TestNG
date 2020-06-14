@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity_Suite" duration-ms="231" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+    <groups>
+      <group name="regression">
+        <method signature="HomeGroup.TC_Home_02()[pri:0, instance:com.maven.jenkins.TestNG.HomeGroup@26653222]" name="TC_Home_02" class="com.maven.jenkins.TestNG.HomeGroup"/>
+        <method signature="LoginGroup.TC_Login_03()[pri:0, instance:com.maven.jenkins.TestNG.LoginGroup@464bee09]" name="TC_Login_03" class="com.maven.jenkins.TestNG.LoginGroup"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="HomeGroup.TC_Home_01()[pri:0, instance:com.maven.jenkins.TestNG.HomeGroup@26653222]" name="TC_Home_01" class="com.maven.jenkins.TestNG.HomeGroup"/>
+        <method signature="LoginGroup.TC_Login_01()[pri:0, instance:com.maven.jenkins.TestNG.LoginGroup@464bee09]" name="TC_Login_01" class="com.maven.jenkins.TestNG.LoginGroup"/>
+        <method signature="LoginGroup.TC_Login_03()[pri:0, instance:com.maven.jenkins.TestNG.LoginGroup@464bee09]" name="TC_Login_03" class="com.maven.jenkins.TestNG.LoginGroup"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Home_Test" duration-ms="40" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+      <class name="com.maven.jenkins.TestNG.HomeGroup">
+        <test-method status="PASS" signature="TC_Home_01()[pri:0, instance:com.maven.jenkins.TestNG.HomeGroup@26653222]" name="TC_Home_01" duration-ms="9" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Home_01 -->
+        <test-method status="PASS" signature="TC_Home_02()[pri:0, instance:com.maven.jenkins.TestNG.HomeGroup@26653222]" name="TC_Home_02" duration-ms="1" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Home_02 -->
+      </class> <!-- com.maven.jenkins.TestNG.HomeGroup -->
+    </test> <!-- Home_Test -->
+    <test name="Login_Test" duration-ms="10" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+      <class name="com.maven.jenkins.TestNG.LoginGroup">
+        <test-method status="PASS" signature="TC_Login_01()[pri:0, instance:com.maven.jenkins.TestNG.LoginGroup@464bee09]" name="TC_Login_01" duration-ms="1" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_01 -->
+        <test-method status="PASS" signature="TC_Login_03()[pri:0, instance:com.maven.jenkins.TestNG.LoginGroup@464bee09]" name="TC_Login_03" duration-ms="3" started-at="2020-06-14T00:22:55Z" finished-at="2020-06-14T00:22:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Login_03 -->
+      </class> <!-- com.maven.jenkins.TestNG.LoginGroup -->
+    </test> <!-- Login_Test -->
+  </suite> <!-- Sanity_Suite -->
+</testng-results>

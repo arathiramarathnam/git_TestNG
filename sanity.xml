@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity_Suite"> <!--  create a suite  -->
+  <test name="Home_Test">
+  <groups>
+  		<run>
+  		<include name="sanity"/>
+  		<include name="regression"/>
+  		</run>
+  </groups>
+    <classes>
+      		<class name="com.maven.jenkins.TestNG.HomeGroup"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Login_Test">
+      <groups>
+  		<run>
+  		<include name="sanity"/>
+  		</run>
+  </groups>
+  	  <classes>
+  	  		<class name="com.maven.jenkins.TestNG.LoginGroup"/>
+  	  </classes>
+  </test> <!-- Test -->   
+</suite> <!-- Suite -->
+		
+		
+		
+		
